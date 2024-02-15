@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 99vh;
+    background-color: rgb(250, 235, 215);
+    font-family: 'Roboto' ;
+    
+
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(83, 156, 216);
+    width: 300px;
+    height: 500px;
+    box-shadow: 1px 1px 10px 1px #595959;
+}
+
+div h1 {
+    display: flex;
+    align-self: center;
+    color: rgb(255, 255, 255);
+}
+
+form {
+    text-align: center;
+    color: white;
+}
+
+form #inome, #isobrenome, #iemail {
+    border-radius: 10px;
+    padding: 3px;
+    border: none;
+    outline-color: rgb(83, 156, 216);
+}
+
+fieldset {
+    border: none;
+    text-align: center;
+}
